@@ -1,2 +1,2 @@
 # my-portfolio
-my portfolio for my work
+portfolio for my work
