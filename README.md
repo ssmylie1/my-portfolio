@@ -5,7 +5,7 @@
 <body>
 
 
-<link rel="stylesheet" type="text/css" href="portfolio.CSS">
+<link rel="stylesheet" type="text/css" href="style.css">
 
 <h1> Samantha Smylie </h1>
 
