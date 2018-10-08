@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Samantha Smylie's Portfolio</title>
 </head>
 <body>
 
