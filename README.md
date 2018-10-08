@@ -9,7 +9,6 @@
 
 <h1> Samantha Smylie </h1>
 
-<img src="">
 
 <h2> About Me</h2>
 <p>An aspiring journalist in Chicago. Currently, she is interning for AirGo radio, working on the IlliNoise podcast and writing for South Side Weekly. Previously, she was a reporting fellow at City Bureau. Born and raised on Chicago's South Side, she is very passionate about telling stories that show the humanity of people who live on Chicago's South and West sides. She is also passionate about equity in education, housing and politics in Chicago. Samantha graduated from Oberlin College with a degree in history and minor in politics. </p>
