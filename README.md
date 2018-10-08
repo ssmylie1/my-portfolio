@@ -12,6 +12,7 @@
   <div class="section"> <!-- beginning of section -->
 
     <div class="inner">
+    
       <h1> Samantha Smylie </h1>
   
    <h2> About Me:</h2>
