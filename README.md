@@ -12,7 +12,7 @@
   <div class="section"> <!-- beginning of section -->
 
     <div class="inner">
-    
+
       <h1> Samantha Smylie </h1>
   
    <h2> About Me:</h2>
@@ -95,12 +95,6 @@
 <h3>Where to Find Me on The Internet</h3>
 <p> Twitter</p>
 <p> Linkedin </p>
-
-
-<h4>Contact me:</h4>
-
-<h5>Here is some of my work</h5>
-
 
 
 
