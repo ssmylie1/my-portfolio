@@ -1,0 +1,15 @@
+.before{
+	position:absolute;
+	top: 50px;
+	left: 50px;
+	height: 500px;
+    width: 50%
+}
+
+.after{
+	position:absolute;
+	top: 50px;
+	left: 50px;
+	height: 500px;
+    width: 50%
+}
