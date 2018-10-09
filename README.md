@@ -13,7 +13,7 @@
 
     <div class="inner">
 
-      <h1> Samantha Smylie </h1>
+    <h1> Samantha Smylie </h1>
   
    <h2> About Me:</h2>
    <p> I was born and raised on Chicago's South Side. After graduating college in 2017, I returned to Chicago to be a reporter. Currently, I am interning for AirGo radio, working on the IlliNoise podcast and writing for South Side Weekly. Previously, I was reporting fellow at City Bureau. 
