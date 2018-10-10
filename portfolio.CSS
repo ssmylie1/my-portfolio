@@ -14,7 +14,7 @@
 
   .image {
     background: #cecece;
-    display: inline-block;
+    display: circle;
     width: auto;
     height: auto;
     width: 80%;
