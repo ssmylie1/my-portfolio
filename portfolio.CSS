@@ -1,55 +1,244 @@
-/*background css*/
+/* Beginning of CSS */
 
-.backgroundColor{
-	background-color: #B39AE5;
-	color:black;
-}
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    font-family: 'Bitter', serif;
+    margin:0px auto;
+  }
+
+  .image {
+    background: #cecece;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    width: 80%;
+    height: 250px;
+    margin: 20px auto;
+    opacity: .8;
+    cursor: pointer;
+  }
+
+  .image:hover {
+    opacity: 1
+  }
+
+  img {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+
+  .header li, a, .button, h3, .image{
+      transition: all 0.10s ease-in-out;
+    -webkit-transition: all 0.10s ease-in-out;
+    -moz-transition: all 0.10s ease-in-out;
+    -o-transition: all 0.10s ease-in-out;
+  }
+
+  .header {
+    width: 100%;
+    top:0px;
+    background:#fff;
+    position: fixed;
+    height: 40px;
+    z-index: 9999;
+    text-align: center;
+    border-bottom: 1px solid #f5f1ef;
+    display: inline-block;
+  }
+
+  .header ul {
+    margin: auto;
+    display: inline-block;
+    padding: 0px;
+  }
+
+  .header li {
+    float: left;
+    padding: 10px 20px 10px 0px;
+    cursor: pointer;
+    list-style-type: none;
+    height:40px;
+  }
+
+  .header li h3 {
+    border-left: 1px solid #cecece;
+    padding-left: 20px;
+  }
+
+  .header li:first-child h3{
+    border-left:0px;
+  }
+
+  .header li.active a {
+    color: rgba(0,0,0,.8);
+  }
+
+  .header li a {
+    color:#B2AB9E;
+  }
+
+  a {
+    color:rgba(0,0,0,.8);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color:rgba(0,0,0,.8);
+  }
+
+  #container {
+    color: #333;
+    width: 100%;
+    margin:0px;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  #container .inner {
+    max-width: 960px;
+    width: 100%;
+    margin:10px auto;
+    padding:20px 0px;
+    display: inline-block;
+  }
+
+  #container .inner.double {
+    float: left;
+    width: 50%;
+  }
+
+  #container .inner.triple {
+    float: left;
+    width: 33%;
+  }
+
+  .inner.triple p {
+    max-width: 300px;
+    margin: auto;
+    width: 100%;
+    height:50px
+  }
+
+  h1 {
+    font-size: 80px;
+    color:#565656;
+    font-weight: 200;
+    margin: 50px 0px 20px
+  }
+
+  h2 {
+    font-size: 40px;
+    color:#565656;
+    margin:50px 0px 0px 0px;
+    font-weight: 200;
+  }
+
+  h3 {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .1em;
+    font-weight: bold;
+    margin:0px;
+  }
+
+  p {
+    font-size: 15px;
+    color: rgba(0,0,0,.8);
+    font-family: "Lato", sans-serif;
+    letter-spacing: .02em;
+    font-weight: 300;
+    line-height: 1.5em
+  }
+
+  #container > div {
+    padding-top:10px;
+    display: inline-block;
+    width: 100%
+  }
+
+  .section {
+    border-bottom: 1px solid #cecece;
+    padding: 50px 0px;
+    display: inline-block;
+    width: 100%;
+    min-height: 400px
+  }
+
+  .footer .section{
+    margin: 0px;
+     border:0px;
+  }
+
+  .footer {
+    background: #222;
+  }
+
+  .footer p {
+    color: #fff
+  }
+
+  #contact .section{
+    min-height: 600px
+  }
+
+/* End of regular CSS */
 
 
 
+/* Beginning of CSS for mobile */
 
+  @media screen and (max-width: 480px){ 
+    
+    p {
+      margin-bottom: 0px
+    }
 
+    h1 {
+      font-size: 50px;
+    }
 
+    h2 {
+      font-size: 30px
+    }
 
+    header li {
+      padding:10px 8px 10px 0px;
+    }
 
+    header li h3 {
+      padding-left:8px;
+    }
 
+    .image {
+      width: 100%;
+      max-width: 300px
+    }
 
+    #container .inner.double, #container .inner.triple {
+      max-width: 300px;
+      width: 100%;
+      float: none;
+      margin: 30px auto 0px;
+    }
 
+    #home p {
+      padding:0px 50px;
+    }
 
+    .inner.triple p {
+      height: auto
+    }
 
+  }
 
+  /* End of CSS for mobile*/
 
-
-
-.fixed{ 
-position: fixed; 
-left: 0px; 
-right: 0px; 
-overflow: hidden; 
-height: 0px 
-}
-
-
-
-.midnightHeaderdefault {
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	transform: translateY(0%) translateZ(0px);
-}
-
-.midnightInner{
-	position: absolute; 
-	overflow: auto; 
-	top: 0px; 
-	left: 0px; 
-	right: 0px; 
-	bottom: 0px; 
-	transform: translateY(0%) translateZ(0px);
-}
-
-
-
-
-
+  </style>
