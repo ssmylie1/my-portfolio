@@ -31,7 +31,7 @@
   img {
     width: 100%;
     margin: auto;
-    display: block;
+    display: circle;
   }
 
   .header li, a, .button, h3, .image{
