@@ -8,25 +8,96 @@
   }
 
   body {
-    font-family: 'Bitter', serif;
+    font-family: 'georgia', serif;
     margin:0px auto;
+    background-color: skyblue
   }
 
-  .image {
-    background: #cecece;
-    display: circle;
-    width: auto;
-    height: auto;
-    width: 80%;
-    height: 250px;
-    margin: 20px auto;
+/*2 column image coding*/
+  .image1 {
+background: none;
+    width: 50%;
+    margin: 70px auto;
     opacity: .8;
     cursor: pointer;
+    transform: rotate(90deg);
   }
 
-  .image:hover {
+   .image1:hover {
     opacity: 1
   }
+
+/*BNW logo*/
+.image2 {
+background: #cecece;
+    display: square;
+    width: 60%;
+    height: 250px;
+    margin: 70px auto;
+    opacity: .8;
+    cursor: pointer
+  }
+  .image2:hover {
+   opacity: 1
+  }
+
+/*IlliNoise Logo*/
+
+.image3 {
+    background: skyblue;
+    display: square;
+    width: 100%;
+    height: 1000;
+    margin: 70px auto;
+    opacity: .8;
+    cursor: pointer;}
+    
+  .image3:hover {
+   opacity: 1
+  }
+
+/*End of audio work section*/ 
+
+.image4{
+    background: skyblue;
+    display: square;
+    width: 60%;
+    height: 250px;
+    margin: 70px auto;
+    opacity: .8;
+    cursor: pointer;}
+    
+  .image4:hover {
+   opacity: 1
+}
+
+ .image5 {
+    background: skyblue;
+    display: square;
+    width: 60%;
+    height: 250px;
+    margin: 70px auto;
+    opacity: .8;
+    cursor: pointer;}
+    
+  .image5:hover {
+   opacity: 1
+  }
+
+
+.image6 {
+    background: skyblue;
+    display: square;
+    width: 60%;
+    height: 650px;
+    margin: 50px auto;
+    opacity: .8;
+    cursor: pointer;}
+    
+  .image6:hover {
+   opacity: 1
+  }
+
 
   img {
     width: 100%;
@@ -120,6 +191,7 @@
   }
 
   .inner.triple p {
+    font-family: "georgia, sans-serif"
     max-width: 300px;
     margin: auto;
     width: 100%;
@@ -127,21 +199,23 @@
   }
 
   h1 {
+    font-family: "georgia", sans-serif;
     font-size: 80px;
-    color:#565656;
+    color:#000000;
     font-weight: 200;
     margin: 50px 0px 20px
   }
 
   h2 {
+    font-family: "georgia", sans-serif;
     font-size: 40px;
-    color:#565656;
+    color:#000000;
     margin:50px 0px 0px 0px;
     font-weight: 200;
   }
 
   h3 {
-    font-family: "Lato", sans-serif;
+    font-family: "georgia", sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: .1em;
@@ -152,7 +226,7 @@
   p {
     font-size: 15px;
     color: rgba(0,0,0,.8);
-    font-family: "Lato", sans-serif;
+    font-family: "georgia", sans-serif;
     letter-spacing: .02em;
     font-weight: 300;
     line-height: 1.5em
